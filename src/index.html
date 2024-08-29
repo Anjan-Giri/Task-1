@@ -268,8 +268,58 @@
       </nav>
     </header>
 
+    <!-- <section class="main swiper">
+      <div class="wrapper swiper-wrapper">
+        <div class="slide swiper-slide">
+          <div class="slideContainer">
+            <div class="bgFilter slide1"></div>
+            <div class="slideText">
+              <h2 class="slideTitle">START INVESTING IN YOU</h2>
+              <p class="slideP">
+                Technology is bringing a massive wave of evolution on learning
+                things on different ways
+              </p>
+              <div class="slideBtn">
+                <button>Ready to get started?</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slide swiper-slide">
+          <div class="slideContainer">
+            <div class="bgFilter slide2"></div>
+            <div class="slideText">
+              <h2 class="slideTitle">START INVESTING IN YOU</h2>
+              <p class="slideP">
+                Technology is bringing a massive wave of evolution on learning
+                things on different ways
+              </p>
+              <div class="slideBtn">
+                <button>Ready to get started?</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slide swiper-slide">
+          <div class="bgFilter slide3"></div>
+          <div class="slideText">
+            <h2 class="slideTitle">SELF EDUCATION RESOURCES AND INFOS</h2>
+            <p class="slideP">
+              Technology is bringing a massive wave of evolution on learning
+              things on different ways
+            </p>
+            <div class="slideBtn">
+              <button>Ready to get started?</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-button-next nav-btn"></div>
+      <div class="swiper-button-prev nav-btn"></div>
+      <div class="swiper-pagination"></div>
+    </section> -->
     <!-- image slider -->
-    <div class="swiper-container">
+    <!-- <div class="swiper-container swiper">
       <swiper-container loop="true" autoplay="true">
         <swiper-slide>
           <div class="slideContainer">
@@ -317,7 +367,7 @@
           </div>
         </swiper-slide>
       </swiper-container>
-    </div>
+    </div> -->
 
     <!-- top courses section -->
     <section class="containerTC">
@@ -679,9 +729,9 @@
           Cum doctus civibus efficiantur in imperdiet deterruisset.
         </p>
       </div>
-      <div class="big-container swiper">
-        <div class="card-wrapper">
-          <div class="test swiper-wrapper">
+      <div class="container swiper">
+        <div class="slider-wrapper">
+          <div class="big-container swiper-wrapper">
             <div class="event-container swiper-slide">
               <div class="event-card">
                 <div class="bgImage card1"></div>
@@ -706,7 +756,9 @@
                 <div class="event-info">
                   <span class="event-time">8:00 am - 5:00 pm</span>
                   <span class="event-location">Vancouver, Canada</span>
-                  <h3 class="event-title">A Solution Built for Teachers</h3>
+                  <h3 class="event-title">
+                    An Overworked Newspaper <br />Editor
+                  </h3>
                 </div>
               </div>
             </div>
@@ -734,21 +786,20 @@
                 <div class="event-info">
                   <span class="event-time">8:00 am - 5:00 pm</span>
                   <span class="event-location">Vancouver, Canada</span>
-                  <h3 class="event-title">A Solution Built for Teachers</h3>
+                  <h3 class="event-title">
+                    An Overworked Newspaper <br />Editor
+                  </h3>
                 </div>
               </div>
             </div>
           </div>
           <div class="swiper-pagination"></div>
-
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-button-next"></div>
         </div>
       </div>
     </section>
 
-    <!-- top courses section -->
-    <section class="containerSC swiper">
+    <!-- popular courses section -->
+    <section class="containerSC">
       <!-- Title and Subtitle -->
       <div class="headerSC">
         <h2 class="title">Browse Our Top Courses</h2>
@@ -756,312 +807,322 @@
           Cum doctus civibus efficiantur in imperdiet deterruisset.
         </p>
       </div>
+      <div class="container swiper">
+        <div class="courses-grid slider-wrapper">
+          <div class="card-list swiper-wrapper">
+            <!-- Course Card -->
+            <div class="course-card swiper-slide">
+              <div class="image-container">
+                <img
+                  src="../assests/img1.jpg"
+                  alt="Course Image"
+                  class="course-image"
+                />
+                <i class="fas fa-heart love-icon"></i>
+                <div class="overlay">
+                  <div class="but">Best Seller</div>
+                  <a class="preview" href="#">Preview Course</a>
+                </div>
+              </div>
 
-      <!-- Courses Grid -->
-      <div class="courses-grid swiper-wrapper">
-        <!-- Course Card -->
-        <div class="course-card swiper-slide">
-          <div class="image-container">
-            <img
-              src="../assests/img1.jpg"
-              alt="Course Image"
-              class="course-image"
-            />
-            <i class="fas fa-heart love-icon"></i>
-            <div class="overlay">
-              <div class="but">Best Seller</div>
-              <a class="preview" href="#">Preview Course</a>
+              <div class="course-info">
+                <h3 class="course-author">Ali TUFAN</h3>
+                <h4 class="course-title">Introduction Web Design with HTML</h4>
+                <div class="course-rating">
+                  <span class="fa fa-star rating-stars"></span>
+                  <span class="fa fa-star rating-stars"></span>
+                  <span class="fa fa-star rating-stars"></span>
+                  <span class="fa fa-star rating-stars"></span>
+                  <span class="fa fa-star rating-stars"></span>
+                  <span class="rating-count">(6)</span>
+                </div>
+                <div class="course-meta">
+                  <span class="course-students"
+                    ><i class="fas fa-user"></i> 1548</span
+                  >
+                  <span class="course-comments"
+                    ><i class="fas fa-comments"></i> 25</span
+                  >
+                  <span class="course-price">$69.95</span>
+                </div>
+              </div>
             </div>
-          </div>
+            <!-- Course Card -->
+            <div class="course-card swiper-slide">
+              <div class="image-container">
+                <img
+                  src="../assests/img2.jpg"
+                  alt="Course Image"
+                  class="course-image"
+                />
+                <i class="fas fa-heart love-icon"></i>
+                <div class="overlay">
+                  <div class="but">Best Seller</div>
+                  <a class="preview" href="#">Preview Course</a>
+                </div>
+              </div>
 
-          <div class="course-info">
-            <h3 class="course-author">Ali TUFAN</h3>
-            <h4 class="course-title">Introduction Web Design with HTML</h4>
-            <div class="course-rating">
-              <span class="fa fa-star rating-stars"></span>
-              <span class="fa fa-star rating-stars"></span>
-              <span class="fa fa-star rating-stars"></span>
-              <span class="fa fa-star rating-stars"></span>
-              <span class="fa fa-star rating-stars"></span>
-              <span class="rating-count">(6)</span>
+              <div class="course-info">
+                <h3 class="course-author">Ali TUFAN</h3>
+                <h4 class="course-title">
+                  Designing a Responsive Mobile Website with Muse
+                </h4>
+                <div class="course-rating">
+                  <span class="fa fa-star rating-stars"></span>
+                  <span class="fa fa-star rating-stars"></span>
+                  <span class="fa fa-star rating-stars"></span>
+                  <span class="fa fa-star rating-stars"></span>
+                  <span class="fa fa-star rating-stars"></span>
+                  <span class="rating-count">(6)</span>
+                </div>
+                <div class="course-meta">
+                  <span class="course-students"
+                    ><i class="fas fa-user"></i> 1548</span
+                  >
+                  <span class="course-comments"
+                    ><i class="fas fa-comments"></i> 25</span
+                  >
+                  <span class="course-price">$69.95</span>
+                </div>
+              </div>
             </div>
-            <div class="course-meta">
-              <span class="course-students"
-                ><i class="fas fa-user"></i> 1548</span
-              >
-              <span class="course-comments"
-                ><i class="fas fa-comments"></i> 25</span
-              >
-              <span class="course-price">$69.95</span>
-            </div>
-          </div>
-        </div>
-        <!-- Course Card -->
-        <div class="course-card swiper-slide">
-          <div class="image-container">
-            <img
-              src="../assests/img2.jpg"
-              alt="Course Image"
-              class="course-image"
-            />
-            <i class="fas fa-heart love-icon"></i>
-            <div class="overlay">
-              <div class="but">Best Seller</div>
-              <a class="preview" href="#">Preview Course</a>
-            </div>
-          </div>
+            <!-- Course Card -->
+            <div class="course-card swiper-slide">
+              <div class="image-container">
+                <img
+                  src="../assests/img3.jpg"
+                  alt="Course Image"
+                  class="course-image"
+                />
+                <i class="fas fa-heart love-icon"></i>
+                <div class="overlay">
+                  <div class="but">Best Seller</div>
+                  <a class="preview" href="#">Preview Course</a>
+                </div>
+              </div>
 
-          <div class="course-info">
-            <h3 class="course-author">Ali TUFAN</h3>
-            <h4 class="course-title">
-              Designing a Responsive Mobile Website with Muse
-            </h4>
-            <div class="course-rating">
-              <span class="fa fa-star rating-stars"></span>
-              <span class="fa fa-star rating-stars"></span>
-              <span class="fa fa-star rating-stars"></span>
-              <span class="fa fa-star rating-stars"></span>
-              <span class="fa fa-star rating-stars"></span>
-              <span class="rating-count">(6)</span>
+              <div class="course-info">
+                <h3 class="course-author">Ali TUFAN</h3>
+                <h4 class="course-title">
+                  Adobe XD: Prototyping Tips and Tricks
+                </h4>
+                <div class="course-rating">
+                  <span class="fa fa-star rating-stars"></span>
+                  <span class="fa fa-star rating-stars"></span>
+                  <span class="fa fa-star rating-stars"></span>
+                  <span class="fa fa-star rating-stars"></span>
+                  <span class="fa fa-star rating-stars"></span>
+                  <span class="rating-count">(6)</span>
+                </div>
+                <div class="course-meta">
+                  <span class="course-students"
+                    ><i class="fas fa-user"></i> 1548</span
+                  >
+                  <span class="course-comments"
+                    ><i class="fas fa-comments"></i> 25</span
+                  >
+                  <span class="course-price">$69.95</span>
+                </div>
+              </div>
             </div>
-            <div class="course-meta">
-              <span class="course-students"
-                ><i class="fas fa-user"></i> 1548</span
-              >
-              <span class="course-comments"
-                ><i class="fas fa-comments"></i> 25</span
-              >
-              <span class="course-price">$69.95</span>
-            </div>
-          </div>
-        </div>
-        <!-- Course Card -->
-        <div class="course-card swiper-slide">
-          <div class="image-container">
-            <img
-              src="../assests/img3.jpg"
-              alt="Course Image"
-              class="course-image"
-            />
-            <i class="fas fa-heart love-icon"></i>
-            <div class="overlay">
-              <div class="but">Best Seller</div>
-              <a class="preview" href="#">Preview Course</a>
-            </div>
-          </div>
+            <!-- Course Card -->
+            <div class="course-card swiper-slide">
+              <div class="image-container">
+                <img
+                  src="../assests/img4.jpg"
+                  alt="Course Image"
+                  class="course-image"
+                />
+                <i class="fas fa-heart love-icon"></i>
+                <div class="overlay">
+                  <div class="but">Best Seller</div>
+                  <a class="preview" href="#">Preview Course</a>
+                </div>
+              </div>
 
-          <div class="course-info">
-            <h3 class="course-author">Ali TUFAN</h3>
-            <h4 class="course-title">Adobe XD: Prototyping Tips and Tricks</h4>
-            <div class="course-rating">
-              <span class="fa fa-star rating-stars"></span>
-              <span class="fa fa-star rating-stars"></span>
-              <span class="fa fa-star rating-stars"></span>
-              <span class="fa fa-star rating-stars"></span>
-              <span class="fa fa-star rating-stars"></span>
-              <span class="rating-count">(6)</span>
+              <div class="course-info">
+                <h3 class="course-author">Ali TUFAN</h3>
+                <h4 class="course-title">Sketch: Creating Responsive SVG</h4>
+                <div class="course-rating">
+                  <span class="fa fa-star rating-stars"></span>
+                  <span class="fa fa-star rating-stars"></span>
+                  <span class="fa fa-star rating-stars"></span>
+                  <span class="fa fa-star rating-stars"></span>
+                  <span class="fa fa-star rating-stars"></span>
+                  <span class="rating-count">(6)</span>
+                </div>
+                <div class="course-meta">
+                  <span class="course-students"
+                    ><i class="fas fa-user"></i> 1548</span
+                  >
+                  <span class="course-comments"
+                    ><i class="fas fa-comments"></i> 25</span
+                  >
+                  <span class="course-price">$69.95</span>
+                </div>
+              </div>
             </div>
-            <div class="course-meta">
-              <span class="course-students"
-                ><i class="fas fa-user"></i> 1548</span
-              >
-              <span class="course-comments"
-                ><i class="fas fa-comments"></i> 25</span
-              >
-              <span class="course-price">$69.95</span>
-            </div>
-          </div>
-        </div>
-        <!-- Course Card -->
-        <div class="course-card swiper-slide">
-          <div class="image-container">
-            <img
-              src="../assests/img4.jpg"
-              alt="Course Image"
-              class="course-image"
-            />
-            <i class="fas fa-heart love-icon"></i>
-            <div class="overlay">
-              <div class="but">Best Seller</div>
-              <a class="preview" href="#">Preview Course</a>
-            </div>
-          </div>
+            <!-- Course Card -->
+            <div class="course-card swiper-slide">
+              <div class="image-container">
+                <img
+                  src="../assests/img5.jpg"
+                  alt="Course Image"
+                  class="course-image"
+                />
+                <i class="fas fa-heart love-icon"></i>
+                <div class="overlay">
+                  <div class="but">Best Seller</div>
+                  <a class="preview" href="#">Preview Course</a>
+                </div>
+              </div>
 
-          <div class="course-info">
-            <h3 class="course-author">Ali TUFAN</h3>
-            <h4 class="course-title">Sketch: Creating Responsive SVG</h4>
-            <div class="course-rating">
-              <span class="fa fa-star rating-stars"></span>
-              <span class="fa fa-star rating-stars"></span>
-              <span class="fa fa-star rating-stars"></span>
-              <span class="fa fa-star rating-stars"></span>
-              <span class="fa fa-star rating-stars"></span>
-              <span class="rating-count">(6)</span>
+              <div class="course-info">
+                <h3 class="course-author">Ali TUFAN</h3>
+                <h4 class="course-title">
+                  Design Instruments for Communication
+                </h4>
+                <div class="course-rating">
+                  <span class="fa fa-star rating-stars"></span>
+                  <span class="fa fa-star rating-stars"></span>
+                  <span class="fa fa-star rating-stars"></span>
+                  <span class="fa fa-star rating-stars"></span>
+                  <span class="fa fa-star rating-stars"></span>
+                  <span class="rating-count">(6)</span>
+                </div>
+                <div class="course-meta">
+                  <span class="course-students"
+                    ><i class="fas fa-user"></i> 1548</span
+                  >
+                  <span class="course-comments"
+                    ><i class="fas fa-comments"></i> 25</span
+                  >
+                  <span class="course-price">$69.95</span>
+                </div>
+              </div>
             </div>
-            <div class="course-meta">
-              <span class="course-students"
-                ><i class="fas fa-user"></i> 1548</span
-              >
-              <span class="course-comments"
-                ><i class="fas fa-comments"></i> 25</span
-              >
-              <span class="course-price">$69.95</span>
-            </div>
-          </div>
-        </div>
-        <!-- Course Card -->
-        <div class="course-card swiper-slide">
-          <div class="image-container">
-            <img
-              src="../assests/img5.jpg"
-              alt="Course Image"
-              class="course-image"
-            />
-            <i class="fas fa-heart love-icon"></i>
-            <div class="overlay">
-              <div class="but">Best Seller</div>
-              <a class="preview" href="#">Preview Course</a>
-            </div>
-          </div>
+            <!-- Course Card -->
+            <div class="course-card swiper-slide">
+              <div class="image-container">
+                <img
+                  src="../assests/img6.jpg"
+                  alt="Course Image"
+                  class="course-image"
+                />
+                <i class="fas fa-heart love-icon"></i>
+                <div class="overlay">
+                  <div class="but">Best Seller</div>
+                  <a class="preview" href="#">Preview Course</a>
+                </div>
+              </div>
 
-          <div class="course-info">
-            <h3 class="course-author">Ali TUFAN</h3>
-            <h4 class="course-title">Design Instruments for Communication</h4>
-            <div class="course-rating">
-              <span class="fa fa-star rating-stars"></span>
-              <span class="fa fa-star rating-stars"></span>
-              <span class="fa fa-star rating-stars"></span>
-              <span class="fa fa-star rating-stars"></span>
-              <span class="fa fa-star rating-stars"></span>
-              <span class="rating-count">(6)</span>
+              <div class="course-info">
+                <h3 class="course-author">Ali TUFAN</h3>
+                <h4 class="course-title">
+                  How to be a DJ? Make Electronic Music
+                </h4>
+                <div class="course-rating">
+                  <span class="fa fa-star rating-stars"></span>
+                  <span class="fa fa-star rating-stars"></span>
+                  <span class="fa fa-star rating-stars"></span>
+                  <span class="fa fa-star rating-stars"></span>
+                  <span class="fa fa-star rating-stars"></span>
+                  <span class="rating-count">(6)</span>
+                </div>
+                <div class="course-meta">
+                  <span class="course-students"
+                    ><i class="fas fa-user"></i> 1548</span
+                  >
+                  <span class="course-comments"
+                    ><i class="fas fa-comments"></i> 25</span
+                  >
+                  <span class="course-price">$69.95</span>
+                </div>
+              </div>
             </div>
-            <div class="course-meta">
-              <span class="course-students"
-                ><i class="fas fa-user"></i> 1548</span
-              >
-              <span class="course-comments"
-                ><i class="fas fa-comments"></i> 25</span
-              >
-              <span class="course-price">$69.95</span>
-            </div>
-          </div>
-        </div>
-        <!-- Course Card -->
-        <div class="course-card swiper-slide">
-          <div class="image-container">
-            <img
-              src="../assests/img6.jpg"
-              alt="Course Image"
-              class="course-image"
-            />
-            <i class="fas fa-heart love-icon"></i>
-            <div class="overlay">
-              <div class="but">Best Seller</div>
-              <a class="preview" href="#">Preview Course</a>
-            </div>
-          </div>
+            <!-- Course Card -->
+            <div class="course-card swiper-slide">
+              <div class="image-container">
+                <img
+                  src="../assests/img7.jpg"
+                  alt="Course Image"
+                  class="course-image"
+                />
+                <i class="fas fa-heart love-icon"></i>
+                <div class="overlay">
+                  <div class="but">Best Seller</div>
+                  <a class="preview" href="#">Preview Course</a>
+                </div>
+              </div>
 
-          <div class="course-info">
-            <h3 class="course-author">Ali TUFAN</h3>
-            <h4 class="course-title">How to be a DJ? Make Electronic Music</h4>
-            <div class="course-rating">
-              <span class="fa fa-star rating-stars"></span>
-              <span class="fa fa-star rating-stars"></span>
-              <span class="fa fa-star rating-stars"></span>
-              <span class="fa fa-star rating-stars"></span>
-              <span class="fa fa-star rating-stars"></span>
-              <span class="rating-count">(6)</span>
+              <div class="course-info">
+                <h3 class="course-author">Ali TUFAN</h3>
+                <h4 class="course-title">
+                  How to Make Beautiful Landscape Photos?
+                </h4>
+                <div class="course-rating">
+                  <span class="fa fa-star rating-stars"></span>
+                  <span class="fa fa-star rating-stars"></span>
+                  <span class="fa fa-star rating-stars"></span>
+                  <span class="fa fa-star rating-stars"></span>
+                  <span class="fa fa-star rating-stars"></span>
+                  <span class="rating-count">(6)</span>
+                </div>
+                <div class="course-meta">
+                  <span class="course-students"
+                    ><i class="fas fa-user"></i> 1548</span
+                  >
+                  <span class="course-comments"
+                    ><i class="fas fa-comments"></i> 25</span
+                  >
+                  <span class="course-price">$69.95</span>
+                </div>
+              </div>
             </div>
-            <div class="course-meta">
-              <span class="course-students"
-                ><i class="fas fa-user"></i> 1548</span
-              >
-              <span class="course-comments"
-                ><i class="fas fa-comments"></i> 25</span
-              >
-              <span class="course-price">$69.95</span>
-            </div>
-          </div>
-        </div>
-        <!-- Course Card -->
-        <div class="course-card swiper-slide">
-          <div class="image-container">
-            <img
-              src="../assests/img7.jpg"
-              alt="Course Image"
-              class="course-image"
-            />
-            <i class="fas fa-heart love-icon"></i>
-            <div class="overlay">
-              <div class="but">Best Seller</div>
-              <a class="preview" href="#">Preview Course</a>
-            </div>
-          </div>
+            <!-- Course Card -->
+            <div class="course-card swiper-slide">
+              <div class="image-container">
+                <img
+                  src="../assests/img8.jpg"
+                  alt="Course Image"
+                  class="course-image"
+                />
+                <i class="fas fa-heart love-icon"></i>
+                <div class="overlay">
+                  <div class="but">Best Seller</div>
+                  <a class="preview" href="#">Preview Course</a>
+                </div>
+              </div>
 
-          <div class="course-info">
-            <h3 class="course-author">Ali TUFAN</h3>
-            <h4 class="course-title">
-              How to Make Beautiful Landscape Photos?
-            </h4>
-            <div class="course-rating">
-              <span class="fa fa-star rating-stars"></span>
-              <span class="fa fa-star rating-stars"></span>
-              <span class="fa fa-star rating-stars"></span>
-              <span class="fa fa-star rating-stars"></span>
-              <span class="fa fa-star rating-stars"></span>
-              <span class="rating-count">(6)</span>
-            </div>
-            <div class="course-meta">
-              <span class="course-students"
-                ><i class="fas fa-user"></i> 1548</span
-              >
-              <span class="course-comments"
-                ><i class="fas fa-comments"></i> 25</span
-              >
-              <span class="course-price">$69.95</span>
-            </div>
-          </div>
-        </div>
-        <!-- Course Card -->
-        <div class="course-card swiper-slide">
-          <div class="image-container">
-            <img
-              src="../assests/img8.jpg"
-              alt="Course Image"
-              class="course-image"
-            />
-            <i class="fas fa-heart love-icon"></i>
-            <div class="overlay">
-              <div class="but">Best Seller</div>
-              <a class="preview" href="#">Preview Course</a>
+              <div class="course-info">
+                <h3 class="course-author">Ali TUFAN</h3>
+                <h4 class="course-title">
+                  Fashion Photography From Professional
+                </h4>
+                <div class="course-rating">
+                  <span class="fa fa-star rating-stars"></span>
+                  <span class="fa fa-star rating-stars"></span>
+                  <span class="fa fa-star rating-stars"></span>
+                  <span class="fa fa-star rating-stars"></span>
+                  <span class="fa fa-star rating-stars"></span>
+                  <span class="rating-count">(6)</span>
+                </div>
+                <div class="course-meta">
+                  <span class="course-students"
+                    ><i class="fas fa-user"></i> 1548</span
+                  >
+                  <span class="course-comments"
+                    ><i class="fas fa-comments"></i> 25</span
+                  >
+                  <span class="course-price">$69.95</span>
+                </div>
+              </div>
             </div>
           </div>
-
-          <div class="course-info">
-            <h3 class="course-author">Ali TUFAN</h3>
-            <h4 class="course-title">Fashion Photography From Professional</h4>
-            <div class="course-rating">
-              <span class="fa fa-star rating-stars"></span>
-              <span class="fa fa-star rating-stars"></span>
-              <span class="fa fa-star rating-stars"></span>
-              <span class="fa fa-star rating-stars"></span>
-              <span class="fa fa-star rating-stars"></span>
-              <span class="rating-count">(6)</span>
-            </div>
-            <div class="course-meta">
-              <span class="course-students"
-                ><i class="fas fa-user"></i> 1548</span
-              >
-              <span class="course-comments"
-                ><i class="fas fa-comments"></i> 25</span
-              >
-              <span class="course-price">$69.95</span>
-            </div>
-          </div>
+          <div class="swiper-slide-button swiper-button-prev"></div>
+          <div class="swiper-slide-button swiper-button-next"></div>
         </div>
       </div>
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-button-next"></div>
     </section>
 
     <!-- footer section  -->
@@ -1178,10 +1239,25 @@
     </div>
     <div class="foot3">Copyright Edumy © 2019. All Rights Reserved.</div>
 
-    <script src="script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
+    <script src="./script.js"></script>
     <!-- FontAwesome for icons -->
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    <!-- <script>
+      var swiperr = new Swiper(".swiper-container", {
+        slidesPerView: 1,
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script> -->
   </body>
 </html>
