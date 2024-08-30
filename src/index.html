@@ -268,60 +268,10 @@
       </nav>
     </header>
 
-    <!-- <section class="main swiper">
-      <div class="wrapper swiper-wrapper">
-        <div class="slide swiper-slide">
-          <div class="slideContainer">
-            <div class="bgFilter slide1"></div>
-            <div class="slideText">
-              <h2 class="slideTitle">START INVESTING IN YOU</h2>
-              <p class="slideP">
-                Technology is bringing a massive wave of evolution on learning
-                things on different ways
-              </p>
-              <div class="slideBtn">
-                <button>Ready to get started?</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="slide swiper-slide">
-          <div class="slideContainer">
-            <div class="bgFilter slide2"></div>
-            <div class="slideText">
-              <h2 class="slideTitle">START INVESTING IN YOU</h2>
-              <p class="slideP">
-                Technology is bringing a massive wave of evolution on learning
-                things on different ways
-              </p>
-              <div class="slideBtn">
-                <button>Ready to get started?</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="slide swiper-slide">
-          <div class="bgFilter slide3"></div>
-          <div class="slideText">
-            <h2 class="slideTitle">SELF EDUCATION RESOURCES AND INFOS</h2>
-            <p class="slideP">
-              Technology is bringing a massive wave of evolution on learning
-              things on different ways
-            </p>
-            <div class="slideBtn">
-              <button>Ready to get started?</button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="swiper-button-next nav-btn"></div>
-      <div class="swiper-button-prev nav-btn"></div>
-      <div class="swiper-pagination"></div>
-    </section> -->
     <!-- image slider -->
-    <!-- <div class="swiper-container swiper">
-      <swiper-container loop="true" autoplay="true">
-        <swiper-slide>
+    <section class="swiper-container swiperr mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
           <div class="slideContainer">
             <div class="bgFilter slide1"></div>
             <div class="slideText">
@@ -335,8 +285,8 @@
               </div>
             </div>
           </div>
-        </swiper-slide>
-        <swiper-slide>
+        </div>
+        <div class="slide swiper-slide">
           <div class="slideContainer">
             <div class="bgFilter slide2"></div>
             <div class="slideText">
@@ -350,8 +300,8 @@
               </div>
             </div>
           </div>
-        </swiper-slide>
-        <swiper-slide>
+        </div>
+        <div class="slide swiper-slide">
           <div class="slideContainer">
             <div class="bgFilter slide3"></div>
             <div class="slideText">
@@ -365,9 +315,12 @@
               </div>
             </div>
           </div>
-        </swiper-slide>
-      </swiper-container>
-    </div> -->
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-next nextBtn">NE<br />XT</div>
+      <div class="swiper-button-prev prevBtn">PR<br />EV</div>
+    </section>
 
     <!-- top courses section -->
     <section class="containerTC">
@@ -1125,6 +1078,33 @@
       </div>
     </section>
 
+    <!-- ad section  -->
+    <div class="ad">
+      <div class="leftAd">
+        <div class="leftTitle">Become an Instructor</div>
+        <div class="leftP">
+          Teach what you love. Dove Schooll gives you the tools to create an
+          online course.
+        </div>
+        <div class="leftButton">
+          <div class="btnP">
+            Start Teaching <i class="fas fa-arrow-right icon"></i>
+          </div>
+        </div>
+      </div>
+      <div class="rightAd">
+        <div class="leftTitle">Dove School For Business</div>
+        <div class="rightP">
+          Get unlimited access to 2,500 of Udemy's top courses for your team.
+        </div>
+        <div class="rightButton">
+          <div class="btnP">
+            Doing Business <i class="fas fa-arrow-right icon"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- footer section  -->
     <footer class="footer">
       <div class="con">
@@ -1245,8 +1225,8 @@
     <!-- FontAwesome for icons -->
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 
-    <!-- <script>
-      var swiperr = new Swiper(".swiper-container", {
+    <script>
+      var swiperr = new Swiper(".mySwiper", {
         slidesPerView: 1,
         loop: true,
         pagination: {
@@ -1258,6 +1238,6 @@
           prevEl: ".swiper-button-prev",
         },
       });
-    </script> -->
+    </script>
   </body>
 </html>
