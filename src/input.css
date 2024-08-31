@@ -781,6 +781,38 @@ body.bg-light-gray {
   }
 }
 
+.achievement-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .achievement-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.grid-box {
+  color: white;
+}
+
+.grid-box i {
+  font-size: 4rem;
+}
+
+.grid-box h2 {
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+
+.grid-box p {
+  font-size: 1.1rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
 .achievementContainer {
   width: 100%;
   height: 40rem;
@@ -964,7 +996,9 @@ body.bg-light-gray {
   display: flex;
   align-items: center;
 }
-
+/* .swiper-pagination-bullet {
+  background-color: green !important;
+} */
 .slider-wrapper .swiper-pagination-bullet {
   background: #858585;
   height: 13px;
